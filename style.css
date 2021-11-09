@@ -1,4 +1,42 @@
 h1 {
-    color:navy;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  color:white;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+div#banner { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  background-color:navy; 
+  width: 100%; 
+}
+div#banner-content { 
+  width: 1000px; 
+  margin-left: 10px auto; 
+  padding: 10px; 
+}
+div#main-content { 
+  padding-top: 70px;
+}
+td#pealkiri{
+  width: max-content;
+}
+td#nupud {
+  text-align: right;
+  margin-right: 10px; 
+  width: 100%;
+
+}
+
+a#nupp {
+  text-decoration: none;
+  color:white;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 32px;
+  padding-left: 20px;
+
+}
+a:visited#nupp {
+  size: 32px;
+  color:white;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
