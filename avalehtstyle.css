@@ -1,0 +1,66 @@
+div#infotekst{
+    align-items: center;
+    margin-top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+  }
+  img#piltnupp{
+    width: 300px;
+    height: 200px;
+  }
+  table#loomadenupud{
+    margin-top: 60px;
+    width: 100%
+  }
+  .keskelvasakul{
+    position: relative;
+    text-align: right;
+    padding: 20px;
+    width: 300px;
+  }
+  .keskelparemal{
+    position: relative;
+    padding: 20px;
+    width: 300px;
+  }
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  p#nuputekst{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  p#nupunumber{
+    text-align:center;
+    color: white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  a:visited#nuputekst{
+    color: white;
+  }
+  .overlay{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 200px;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  .keskelparemal:hover .overlay{
+    opacity: 0.5;
+  }
+  .keskelvasakul:hover .overlay{
+    opacity: 0.5;
+  }
+ 

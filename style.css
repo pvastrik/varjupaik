@@ -1,24 +1,26 @@
 h1 {
   color:white;
-  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 div#banner { 
   position: absolute; 
   top: 0; 
   left: 0; 
-  background-color:navy; 
+  background-color:#193366; 
   width: 100%; 
 }
 div#banner-content { 
   width: 100%; 
-  margin-left: 20px; 
-  padding: 10px; 
+  /* margin-left: 20px;  */
+  /* padding: 10px;  */
 }
 div#main-content { 
   padding-top: 70px;
 }
 td#pealkiri{
   /* width: 50%; */
+  padding-left: 50px;
+  /* text-align: center; */
 }
 td#nupud {
   text-align: right;
@@ -36,7 +38,7 @@ table#menu{
 a#nupp {
   text-decoration: none;
   color:white;
-  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 32px;
   padding-left: 20px;
 
@@ -50,10 +52,9 @@ td#kassid{
   width: 20px;
 }
 td#info{
-  width: 190px;
+  width: 210px;
 }
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  box-shadow:         3px 3px 5px 6px #ccc;
+  /* https://css-tricks.com/snippets/css/css-box-shadow/#example */
+  box-shadow:         3px 3px 5px 6px rgb(28, 36, 61);
 }
