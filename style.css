@@ -10,23 +10,29 @@ div#banner {
   width: 100%; 
 }
 div#banner-content { 
-  width: 1000px; 
-  margin-left: 10px auto; 
+  width: 100%; 
+  margin-left: 20px; 
   padding: 10px; 
 }
 div#main-content { 
   padding-top: 70px;
 }
 td#pealkiri{
-  width: max-content;
+  /* width: 50%; */
 }
 td#nupud {
   text-align: right;
-  margin-right: 10px; 
-  width: 100%;
-
+  /* margin-right: 0 auto;  */
+  /* width: 50%; */
+  width: fit-content;
 }
-
+table#bannerlayout{
+  width: 100%;
+}
+table#menu{
+  width: 100%;
+  margin-left: -50px;
+}
 a#nupp {
   text-decoration: none;
   color:white;
@@ -39,4 +45,15 @@ a:visited#nupp {
   size: 32px;
   color:white;
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+td#kassid{
+  width: 20px;
+}
+td#info{
+  width: 190px;
+}
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
