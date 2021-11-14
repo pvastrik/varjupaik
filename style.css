@@ -3,7 +3,9 @@ h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 div#banner { 
-  position: absolute; 
+  z-index: 1;
+  position: fixed; 
+  overflow: hidden;
   top: 0; 
   left: 0; 
   background-color:#193366; 
