@@ -2,6 +2,10 @@ h1 {
   color:white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.taustapilt {
+  background-image: url('pildid/taust.jpg');
+  background-size: auto;
+}
 div#banner { 
   z-index: 1;
   position: fixed; 
