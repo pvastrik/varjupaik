@@ -5,6 +5,7 @@ h1 {
 .taustapilt {
   background-image: url('pildid/taust.jpg');
   background-size: auto;
+  background-attachment: fixed;
 }
 div#banner { 
   z-index: 1;
@@ -61,6 +62,5 @@ td#info{
   width: 210px;
 }
 .shadow {
-  /* https://css-tricks.com/snippets/css/css-box-shadow/#example */
-  box-shadow:         3px 3px 5px 6px rgb(28, 36, 61);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }

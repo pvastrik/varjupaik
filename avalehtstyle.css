@@ -9,8 +9,8 @@ div#infotekst{
     margin-top: 150px;
   }
   img#piltnupp{
-    width: 300px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
   }
   table#loomadenupud{
     margin-top: 60px;
@@ -21,11 +21,13 @@ div#infotekst{
     text-align: right;
     padding: 20px;
     width: 300px;
+    background-color: white;
   }
   .keskelparemal{
     position: relative;
     padding: 20px;
     width: 300px;
+    background-color: white;
   }
   .centered{
     position: absolute;
@@ -66,5 +68,55 @@ div#infotekst{
   .keskelvasakul:hover .overlay{
     opacity: 0.5;
   }
-
+  .kaart{
+    margin-left: 30px;
+    margin-right: 30px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .kontakttekstnimi{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 15px;
+    width: 30%;
+    padding-left: 40px;
+  }
+  .kontakttekst{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    width: fit-content;
+    vertical-align: middle;
+    padding: 15px;
+  }
+  .kontaktikoon{
+    width: 30px;
+    padding: 15px;
+    vertical-align: middle;
+    padding-left: 40px;
+  }
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+  }
+  .mapedge{
+    padding: 15px;
+    padding-right: 40px;
+  }
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+  }
+  .kontakttabel{
+    width: 100%;
+  } 
+  .kontakttabelikoon{
+    width: 60px;
+    height: 60px;
+  }
  
