@@ -1,25 +1,33 @@
 div.gallery {
     margin-top: 100px;
-    
+    position:absolute;
+    left: 50%;
+    margin-left: -610px;
 }
 div.animal {
     margin: 10px;
-    border: 1px solid #ccc;
     float: left;
     width: 385px;
-    height: 257px;
     
 }
 
-div.animal:hover {
+/*div.animal:hover {
     border: 1px solid #777;
-}
+}*/
 
 div.animal img {
     width: 100%;
-    height: 100%;
+    height: 257px;
 }
 div.desc {
-    text-align: center;
+    text-align: left;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
 
+div.desc p {
+    font-size: 15px;
+    margin: 0px;
+    
 }

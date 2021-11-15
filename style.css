@@ -42,6 +42,9 @@ table#menu{
   width: 100%;
   margin-left: -50px;
 }
+a {
+  text-decoration: none;
+}
 a#nupp {
   text-decoration: none;
   color:white;
