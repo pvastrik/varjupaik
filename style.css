@@ -1,11 +1,12 @@
 h1 {
-  color:white;
+  color: #1f3617;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .taustapilt {
-  background-image: url('pildid/taust.jpg');
+  /* background-image: url('pildid/taust.jpg');
   background-size: auto;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: #CEEDB6;
 }
 div#banner { 
   z-index: 1;
@@ -13,7 +14,7 @@ div#banner {
   overflow: hidden;
   top: 0; 
   left: 0; 
-  background-color:#193366; 
+  background-color:#b3d9a5; 
   width: 100%; 
 }
 div#banner-content { 
@@ -47,7 +48,7 @@ a {
 }
 a#nupp {
   text-decoration: none;
-  color:white;
+  color:#1f3617;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 32px;
   padding-left: 20px;
@@ -55,7 +56,7 @@ a#nupp {
 }
 a:visited#nupp {
   size: 32px;
-  color:white;
+  color:#1f3617;
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 td#kassid{
