@@ -2,9 +2,10 @@ body {
     margin-top: 100px;
 }
 div.gallery {
-    position:absolute;
-    left: 50%;
-    margin-left: -47.5%;
+    /* left: 50%; */
+    /* margin-left: -47.5%; */
+    margin: auto;
+    height: fit-content;
     border-top: 5px dotted #0B4619;
     width: 95%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
