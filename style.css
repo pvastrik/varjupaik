@@ -6,27 +6,25 @@ html, body{
   overflow-x: hidden;
   margin: 0; 
   padding: 0;
-  height: 100%;
 }
 .taustapilt {
   background-color: #e8e8cc;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 
 }
 div#footer {
   z-index: 1;
   background-color:#116530; 
-  width: 100vw; 
+  width: 100%; 
   text-align: center;
 }
 div#footer-content {
-  width:100vw;
+  width:100%;
 }
 .footertekst {
   line-height: 60px;
-  width: 100vw;
+  width: 100%;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
