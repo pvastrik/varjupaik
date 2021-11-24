@@ -2,11 +2,34 @@ h1 {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+html, body{
+  overflow-x: hidden;
+  margin: 0; 
+  padding: 0;
+  height: 100%;
+}
 .taustapilt {
-  /* background-image: url('pildid/taust.jpg');
-  background-size: auto;
-  background-attachment: fixed; */
   background-color: #e8e8cc;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+div#footer {
+  z-index: 1;
+  background-color:#116530; 
+  width: 100vw; 
+  text-align: center;
+}
+div#footer-content {
+  width:100vw;
+}
+.footertekst {
+  line-height: 60px;
+  width: 100vw;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 div#banner { 
   z-index: 1;
@@ -19,21 +42,16 @@ div#banner {
 }
 div#banner-content { 
   width: 100%; 
-  /* margin-left: 20px;  */
-  /* padding: 10px;  */
+
 }
 div#main-content { 
   padding-top: 70px;
 }
 td#pealkiri{
-  /* width: 50%; */
   padding-left: 50px;
-  /* text-align: center; */
 }
 td#nupud {
   text-align: right;
-  /* margin-right: 0 auto;  */
-  /* width: 50%; */
   width: fit-content;
 }
 table#bannerlayout{
