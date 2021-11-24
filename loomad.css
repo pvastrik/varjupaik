@@ -1,19 +1,34 @@
-div.gallery {
+body {
     margin-top: 100px;
+}
+div.gallery {
     position:absolute;
     left: 50%;
-    margin-left: -610px; 
+    margin-left: -47.5%;
+    border-top: 5px dotted #0B4619;
+    width: 95%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.pildid {
+    position: relative;
+    left: 50%;
+    width: 98%;
+    margin-left: -48%;
+}
+.title {
+    color: #116530;
+    margin: 15px 0px 5px 30px;
+    font-size: 6ch;
+    padding-bottom: 20px;
+}
 .animal {
     color: white;
-    margin: 10px;
+    margin: 15px;
     float: left;
     background-image: var(--bg);
     background-size: cover;
     padding: 8rem 0 0;
-    width: 45ch;
+    width: 30%;
     border-radius: .3rem;
     overflow: hidden;
 
