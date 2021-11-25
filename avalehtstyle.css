@@ -1,14 +1,14 @@
-div#infotekst{
+div.infotekst{
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     color: black;
     text-align: center;
   }
-  .madalamal{
+  div#madalamal{
     margin-top: 100px;
   }
-  img#piltnupp{
+  img.piltnupp{
     width: 450px;
     height: 300px;
   }
@@ -35,14 +35,14 @@ div#infotekst{
     transform: translate(-50%, -50%);
   }
   
-  p#nuputekst{
+  p.nuputekst{
     text-align: center;
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  p#nupunumber{
+  p.nupunumber{
     text-align:center;
     color: white;
     font-size: 28px;
@@ -117,4 +117,9 @@ div#infotekst{
   .kontakttabelikoon{
     width: 60px;
     height: 60px;
+  }
+  .raam{
+    border: 0;
+    height: 290px;
+    width: 100%
   }

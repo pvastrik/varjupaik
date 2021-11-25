@@ -72,7 +72,7 @@ a.nupp {
 
 }
 a:visited.nupp {
-  size: 32px;
+  font-size: 32px;
   color:white;
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
