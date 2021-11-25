@@ -47,6 +47,7 @@ div#main-content {
 }
 td#pealkiri{
   padding-left: 50px;
+  
 }
 td#nupud {
   text-align: right;
@@ -62,7 +63,7 @@ table#menu{
 a {
   text-decoration: none;
 }
-a#nupp {
+a.nupp {
   text-decoration: none;
   color:white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -70,7 +71,7 @@ a#nupp {
   padding-left: 20px;
 
 }
-a:visited#nupp {
+a:visited.nupp {
   size: 32px;
   color:white;
   font-family: Impact, 'Arial Narrow Bold', sans-serif;
