@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Trade+Winds&display=swap');
+
 body {
     margin-top: 100px;
     font-family: Trade Winds;
@@ -11,7 +12,7 @@ div.gallery {
     overflow: visible;
     border-top: 5px dotted #0B4619;
     width: 95%;
-    font-family: Trade Winds;
+
 }
 .pildid {
     position: relative;
