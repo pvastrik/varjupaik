@@ -54,10 +54,10 @@ div.infotekst{
   }
   .overlay{
     position: absolute;
+    right: 20px;
     top: 20px;
-    left: 20px;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 450px;
     opacity: 0;
     transition: .5s ease;
   }
@@ -122,4 +122,7 @@ div.infotekst{
     border: 0;
     height: 290px;
     width: 100%
+  }
+  .pilt{
+    padding-left: 0;
   }
