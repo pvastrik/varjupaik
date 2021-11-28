@@ -46,19 +46,17 @@ div#main-content {
   padding-top: 70px;
 }
 td#pealkiri{
-  padding: 20px 0 20px 50px;
   font-weight: bold;
+  padding: 20px 0 20px 0;
 }
 td#nupud {
   text-align: right;
-  width: fit-content;
+  margin: auto;
+  align-items: center;
 }
 table#bannerlayout{
   width: 100%;
-}
-table#menu{
-  width: 100%;
-  margin-left: -50px;
+  padding: 0px 30px 0px 30px;
 }
 a {
   text-decoration: none;
@@ -68,19 +66,13 @@ a.nupp {
   color:white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 32px;
-  padding-left: 20px;
 
 }
 a:visited.nupp {
   font-size: 32px;
   color:white;
 }
-td#kassid{
-  width: 20px;
-}
-td#info{
-  width: 210px;
-}
+
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
@@ -167,4 +159,7 @@ td#info{
 }
 .loader--active .loader__tile:nth-child(5) {
   transition-delay: 0.8s;
+}
+.menunupp{
+  padding: 20px 0px 20px 20px;
 }
