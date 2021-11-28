@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Trade+Winds&display=swap');
-
-body {
-    margin-top: 100px;
-    font-family: Trade Winds;
-}
 div.gallery {
-    /* left: 50%; */
-    /* margin-left: -47.5%; */
     margin: auto;
     overflow: visible;
     border-top: 5px dotted #0B4619;
@@ -20,18 +11,12 @@ div.gallery {
 .gallery > * {
     flex: 1 1 300px;
 }
-/* .pildid {
-    position: relative;
-    width: 98%;
-    left: 50%;
-    margin-left: -48%;
-} */
+
 .title {
     color: #116530; 
     margin: 15px 0px 5px 50px;
-    font-size: 6ch;
+    font-size: 8ch;
     padding-bottom: 20px;
-    font-family: Trade Winds;
 }
 .animal {
     color: white;
@@ -43,7 +28,6 @@ div.gallery {
     max-width: 400px;
     border-radius: .3rem;
     overflow: hidden;
-
     transition: transform 500ms ease;
 }
 
