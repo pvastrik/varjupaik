@@ -26,15 +26,13 @@ div.gallery {
 .info {
     color: white;
     margin: 15px;
-    float: left;
     background-image: var(--bg);
     background-size: cover;
-    background-position: center;
-    padding: 8rem 0 0;
-    width: 30%;
+        /* background-position: center; */
+    padding: 10rem 0 0;
     border-radius: .3rem;
     overflow: hidden;
-
+    height: auto;
     transition: transform 500ms ease;
 }
 
@@ -45,11 +43,12 @@ div.gallery {
 .content {
     --padding: 1.5rem;
     padding: var(--padding);
+    height:370px;
     background: linear-gradient(
         hsl(0 0% 0% / 0),
         hsl(0 0% 0% / 0.2) 20%,
         hsl(0 0% 0% / 0.8));
-    transform: translateY(45%);
+    transform: translateY(320px);
     transition: transform 500ms ease;
 
 }
@@ -91,8 +90,4 @@ div.gallery {
 
 .info:hover .pealkiri::after {
     transform: scaleX(1);
-}
-
-.desc {
-    padding-top: 0;
 }
