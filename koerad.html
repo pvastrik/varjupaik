@@ -7,17 +7,31 @@
     <link rel="stylesheet" href="loomad.css">
 </head>
 <body class=taustapilt>
+    <div class="loader loader--active">
+        <div class="loader__icon">
+          <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+            <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+            <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+          </svg>
+        </div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+        <div class="loader__tile"></div>
+      </div>
     <div id='banner' class = 'shadow'>
         <div id = 'banner-content'>
             <table id = bannerlayout>
                 <tr>
-                    <td id=pealkiri><a href="avaleht.html"><h1>Varjupaik: Loomade pesa</h1></a></td>
+                    <td id=pealkiri><a class=nupp href="javascript:delay('avaleht.html')">Varjupaik: Loomade pesa</a></td>
                     <td id=nupud>
                         <table id=menu>
                             <tr>
-                                <td id=koerad><a id=nupp  href="koerad.html">Koerad</a></td>
-                                <td id=kassid><a id=nupp href="kassid.html">Kassid</a></td>
-                                <td id=info><a id=nupp href="info.html">Enne võtmist</a></td>
+                                <td id=koerad><a class=nupp  href="javascript:delay('koerad.html')">Koerad</a></td>
+                                <td id=kassid><a class=nupp href="javascript:delay('kassid.html')">Kassid</a></td>
+                                <td id=info><a class=nupp href="javascript:delay('info.html')">Enne võtmist</a></td>
                             </tr>
                         </table>
                     </td>
@@ -25,6 +39,8 @@
             </table>   
         </div>
     </div>
+    <script  src="script.js"></script>
+
     <div>
         <h1 class="title">Koerad kodu ootel</h1>
     </div>
@@ -32,157 +48,157 @@
         <div class="pildid">
             <div class="animal" style="--bg: url(pildid/koerad/alfi.jpg)">
                 <div class="content">
-                    <h2 class="name">ALFI</h2>
+                    <h2 class="name">Alfi</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/bars.jpg)">
                 <div class="content">
-                    <h2 class="name">BARS</h2>
+                    <h2 class="name">Bars</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/bruno.jpg)">
                 <div class="content">
-                    <h2 class="name">BRUNO</h2>
+                    <h2 class="name">Bruno</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/dona.jpg)">
                 <div class="content">
-                    <h2 class="name">DONA</h2>
+                    <h2 class="name">Dona</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/k2tu.jpg)">
                 <div class="content">
-                    <h2 class="name">KÄTU</h2>
+                    <h2 class="name">Kätu</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/kusti.jpg)">
                 <div class="content">
-                    <h2 class="name">KUSTI</h2>
+                    <h2 class="name">Kusti</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/kutt.jpg)">
                 <div class="content">
-                    <h2 class="name">KUTT</h2>
+                    <h2 class="name">Kutt</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/malviina.jpg)">
                 <div class="content">
-                    <h2 class="name">MALVIINA</h2>
+                    <h2 class="name">Malviina</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/mauri.jpg)">
                 <div class="content">
-                    <h2 class="name">MAURI</h2>
+                    <h2 class="name">Mauri</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/meida.jpg)">
                 <div class="content">
-                    <h2 class="name">MEIDA</h2>
+                    <h2 class="name">Meida</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/naima.jpg)">
                 <div class="content">
-                    <h2 class="name">NAIMA</h2>
+                    <h2 class="name">Naima</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/paavel.jpg)">
                 <div class="content">
-                    <h2 class="name">PAAVEL</h2>
+                    <h2 class="name">Paavel</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/poiss.jpg)">
                 <div class="content">
-                    <h2 class="name">POISS</h2>
+                    <h2 class="name">Poiss</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/polster.jpg)">
                 <div class="content">
-                    <h2 class="name">POLSTER</h2>
+                    <h2 class="name">Polster</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/poncik.jpg)">
                 <div class="content">
-                    <h2 class="name">PONCIK</h2>
+                    <h2 class="name">Poncik</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/renate.jpg)">
                 <div class="content">
-                    <h2 class="name">RENATE</h2>
+                    <h2 class="name">Renate</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/rex.jpg)">
                 <div class="content">
-                    <h2 class="name">REX</h2>
+                    <h2 class="name">Rex</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/robi.jpg)">
                 <div class="content">
-                    <h2 class="name">ROBI</h2>
+                    <h2 class="name">Robi</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/sammy.jpg)">
                 <div class="content">
-                    <h2 class="name">SAMMY</h2>
+                    <h2 class="name">Sammy</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/semu.jpg)">
                 <div class="content">
-                    <h2 class="name">SEMU</h2>
+                    <h2 class="name">Semu</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/sihvka.jpg)">
                 <div class="content">
-                    <h2 class="name">SIHVKA</h2>
+                    <h2 class="name">Sihvka</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/timmi.jpg)">
                 <div class="content">
-                    <h2 class="name">TIMMI</h2>
+                    <h2 class="name">Timmi</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/triinu.jpg)">
                 <div class="content">
-                    <h2 class="name">TRIINU</h2>
+                    <h2 class="name">Triinu</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/välek.jpg)">
                 <div class="content">
-                    <h2 class="name">VÄLEK</h2>
+                    <h2 class="name">Välek</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/vello.jpg)">
                 <div class="content">
-                    <h2 class="name">VELLO</h2>
+                    <h2 class="name">Vello</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>
             <div class="animal" style="--bg: url(pildid/koerad/volli.jpg)">
                 <div class="content">
-                    <h2 class="name">VOLLI</h2>
+                    <h2 class="name">Volli</h2>
                     <p class="desc">Tartu Koduta Loomade Varjupaik</p>
                 </div>
             </div>

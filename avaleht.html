@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="et">
-<meta charset="UTF-8">
-
     <head>
+        <meta charset="UTF-8">
         <title>Loomade pesa</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="avalehtstyle.css">
     </head>
     <body class=taustapilt>
+        <div class="loader loader--active">
+            <div class="loader__icon">
+              <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+                <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+              </svg>
+            </div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+          </div>
         <div id='banner' class = 'shadow'>
             <div id = 'banner-content'>
                 <table id = bannerlayout>
                     <tr>
-                        <td id=pealkiri><a href="avaleht.html"><h1>Varjupaik: Loomade pesa</h1></a></td>
+                        <td id=pealkiri><a class="nupp" href="javascript:delay('avaleht.html')">Varjupaik: Loomade pesa</a></td>
                         <td id=nupud>
                             <table id=menu>
                                 <tr>
-                                    <td id=koerad><a id=nupp  href="koerad.html">Koerad</a></td>
-                                    <td id=kassid><a id=nupp href="kassid.html">Kassid</a></td>
-                                    <td id=info><a id=nupp href="info.html">Enne võtmist</a></td>
+                                    <td id=koerad><a class="nupp"  href="javascript:delay('koerad.html')">Koerad</a></td>
+                                    <td id=kassid><a class="nupp" href="javascript:delay('kassid.html')">Kassid</a></td>
+                                    <td id=info><a class="nupp" href="javascript:delay('info.html')">Enne võtmist</a></td>
                                 </tr>
                             </table>
                         </td>
@@ -26,7 +39,7 @@
                 </table>   
             </div>
         </div>
-        <div id=infotekst class=madalamal>
+        <div class=infotekst id=madalamal>
             <p>Oleme siia erinevatest Eesti varjupaikadest kokku kogunud kodu otsivate loomade andmed.</p>
         </div>
         <div id=loomadnupud class=kaart>
@@ -34,17 +47,17 @@
                 <tr>
                     <td><br></td>
                     <td class=keskelvasakul>
-                        <a href="koerad.html"><img id=piltnupp src="pildid/koerad.jpg" alt="Koerad"><div class=overlay><img src="pildid/fade.png" alt="Koeradfade"></div><div class=centered><p id=nuputekst>Vaatan <p id=nupunumber>26</p><p id=nuputekst>koera</p></div></a> 
+                        <a class="nupp" class='pilt' href="javascript:delay('koerad.html')"><img class=piltnupp src="pildid/koerad.jpg" alt="Koerad"><div class=overlay><img src="pildid/fade.png" alt="Koeradfade"></div><div class=centered><p class=nuputekst>Vaatan <p class=nupunumber>26</p><p class=nuputekst>koera</p></div></a> 
                     </td>
                     <td class=keskelparemal>
-                        <a href="kassid.html"><img id=piltnupp src="pildid/kassid.jpg" alt="Kassid"><div class=overlay><img src="pildid/fade.png" alt="Kassidfade"></div><div class=centered><p id=nuputekst>Vaatan <p id=nupunumber>51</p><p id=nuputekst>kassi</p></div></a>
+                        <a class="nupp" class ='pilt' href="javascript:delay('kassid.html')"><img class=piltnupp src="pildid/kassid.jpg" alt="Kassid"><div class=overlay><img src="pildid/fade.png" alt="Kassidfade"></div><div class=centered><p class=nuputekst>Vaatan <p class=nupunumber>51</p><p class=nuputekst>kassi</p></div></a>
                     </td>
                     <td><br></td>
                 </tr>
             </table>
         </div>
         <br>
-        <div id=infotekst>
+        <div class=infotekst>
             <p>Loomade andmed on kogutud järgmistest varjupaikadest:</p>
         </div>
         <br>
@@ -52,7 +65,7 @@
             <table class=kontakttabel>
                 <tr>
                     <td class=kontakttekstnimi colspan="2"><b>TARTU KODUTUTE LOOMADE VARJUPAIK</b></td>
-                    <td rowspan="5" class=mapedge><div class="mapouter"><div class="gmap_canvas"><iframe height=290px width="100%" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8364.694567309973!2d26.737534145376685!3d58.390472101442406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36c0e21d5a79%3A0x3f644e8de0dd4eb5!2sTartu%20Koduta%20Loomade%20Varjupaik!5e0!3m2!1sen!2see!4v1636901488190!5m2!1sen!2see" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br></div></div></td>
+                    <td rowspan="5" class=mapedge><div class="mapouter"><div class="gmap_canvas"><iframe class = "raam"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8364.694567309973!2d26.737534145376685!3d58.390472101442406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36c0e21d5a79%3A0x3f644e8de0dd4eb5!2sTartu%20Koduta%20Loomade%20Varjupaik!5e0!3m2!1sen!2see!4v1636901488190!5m2!1sen!2see" ></iframe></div></div></td>
                 </tr>
                 <tr>
                     <td class="kontakttabelikoon"><img src="pildid/telefon.png" alt="telefon:" class=kontaktikoon></td>
@@ -77,7 +90,7 @@
             <table class=kontakttabel>
                 <tr>
                     <td class=kontakttekstnimi colspan="2"><b>TALLINNA VARJUPAIK</b></td>
-                    <td rowspan="5" class=mapedge><div class="mapouter"><div class="gmap_canvas"><iframe height=290px width="100%" id="gmap_canvas"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8107.2424854392575!2d24.707688846130583!3d59.469582507328944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469293bdb31ac8c1%3A0xf3be5be6402ff1ec!2sShelters%20NGO%20Tallinn%20Animal%20Shelter!5e0!3m2!1sen!2see!4v1636900921614!5m2!1sen!2see" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br></div></div></td>
+                    <td rowspan="5" class=mapedge><div class="mapouter"><div class="gmap_canvas"><iframe class="raam" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8107.2424854392575!2d24.707688846130583!3d59.469582507328944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469293bdb31ac8c1%3A0xf3be5be6402ff1ec!2sShelters%20NGO%20Tallinn%20Animal%20Shelter!5e0!3m2!1sen!2see!4v1636900921614!5m2!1sen!2see"></iframe></div></div></td>
                 </tr>
                 <tr>
                     <td class="kontakttabelikoon"><img src="pildid/telefon.png" alt="telefon:" class=kontaktikoon></td>
@@ -102,7 +115,7 @@
             <table class=kontakttabel>
                 <tr>
                     <td class=kontakttekstnimi colspan="2"><b>VILJANDI VARJUPAIK</b></td>
-                    <td rowspan="5" class=mapedge><div class="mapouter"><div class="gmap_canvas"><iframe height=290px width="100%" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8369.380867689852!2d25.548151245362973!3d58.37071470133847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec986ff0b6967b%3A0x964d2bc05cfec6c!2sVarjupaikade%20MT%C3%9C%20Viljandi%20loomade%20varjupaik!5e0!3m2!1sen!2see!4v1636901397516!5m2!1sen!2see" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br></div></div></td>
+                    <td rowspan="5" class=mapedge><div class="mapouter"><div class="gmap_canvas"><iframe class = "raam" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8369.380867689852!2d25.548151245362973!3d58.37071470133847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec986ff0b6967b%3A0x964d2bc05cfec6c!2sVarjupaikade%20MT%C3%9C%20Viljandi%20loomade%20varjupaik!5e0!3m2!1sen!2see!4v1636901397516!5m2!1sen!2see"></iframe></div></div></td>
                 </tr>
                 <tr>
                     <td class="kontakttabelikoon"><img src="pildid/telefon.png" alt="telefon:" class=kontaktikoon></td>
@@ -129,5 +142,7 @@
                 <p class= footertekst>See lehekülg valmis sissejuhatus erialasse projekti raames</p>
             </div>
         </div>    
+        <script  src="script.js"></script>
+
     </body>
 </html>

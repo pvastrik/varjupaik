@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Trade+Winds&display=swap');
 
 body {
     margin-top: 100px;
-    font-family: Finger Paint;
+    font-family: Trade Winds;
 }
 div.gallery {
     /* left: 50%; */
@@ -11,7 +12,7 @@ div.gallery {
     overflow: visible;
     border-top: 5px dotted #0B4619;
     width: 95%;
-    font-family: Finger Paint;
+
 }
 .pildid {
     position: relative;
@@ -24,7 +25,7 @@ div.gallery {
     margin: 15px 0px 5px 30px;
     font-size: 6ch;
     padding-bottom: 20px;
-    font-family: Finger Paint;
+    font-family: Trade Winds;
 }
 .animal {
     color: white;
