@@ -12,29 +12,35 @@ div.gallery {
     overflow: visible;
     border-top: 5px dotted #0B4619;
     width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
-.pildid {
+.gallery > * {
+    flex: 1 1 300px;
+}
+/* .pildid {
     position: relative;
     width: 98%;
     left: 50%;
     margin-left: -48%;
-}
+} */
 .title {
-    color: #116530;
-    margin: 15px 0px 5px 30px;
+    color: #116530; 
+    margin: 15px 0px 5px 50px;
     font-size: 6ch;
     padding-bottom: 20px;
     font-family: Trade Winds;
 }
 .animal {
     color: white;
-    margin: 15px;
-    float: left;
+    margin: 10px;
     background-image: var(--bg);
     background-size: cover;
+    background-position: center;
     padding: 8rem 0 0;
-    width: 30%;
+    max-width: 400px;
     border-radius: .3rem;
     overflow: hidden;
 
