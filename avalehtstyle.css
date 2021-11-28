@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
 div.infotekst{
     align-items: center;
+    font-family: Finger Paint;
     font-size: 24px;
     color: #116530; 
     text-align: center;
   }
-
+  div#madalamal{
+    margin-top: 100px;
+  }
   img.piltnupp{
     width: 450px;
     height: 300px;
   }
-  table#loomadenupud{
-    width: 100%
+  div#loomadnupud{
+    align-items:center; 
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap; 
   }
   .keskelvasakul{
     position: relative;
@@ -59,10 +67,7 @@ div.infotekst{
     opacity: 0;
     transition: .5s ease;
   }
-  .keskelparemal:hover .overlay{
-    opacity: 0.5;
-  }
-  .keskelvasakul:hover .overlay{
+  .pilt:hover .overlay{
     opacity: 0.5;
   }
   .kaart{
@@ -122,5 +127,7 @@ div.infotekst{
     width: 100%
   }
   .pilt{
-    padding-left: 0;
+    padding: 20px;
+    position: relative;
+    height: 300px;
   }

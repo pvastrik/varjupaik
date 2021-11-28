@@ -30,5 +30,5 @@ for (var i = 0; i < Nupud.length ; i++)
 }
 // akna suuruse muutumisel margini muutmine
 window.addEventListener('resize', function(event) {
-  document.getElementById('main').style.marginTop = document.getElementById('banner').offsetHeight + "px";
-}, true);
+  document.getElementById('main-content').style.marginTop = document.getElementById('banner').offsetHeight + "px";
+});
