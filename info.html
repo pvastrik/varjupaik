@@ -9,17 +9,31 @@
     </head>
     
     <body class=taustapilt>
+        <div class="loader loader--active">
+            <div class="loader__icon">
+              <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+                <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+                <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+              </svg>
+            </div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+            <div class="loader__tile"></div>
+          </div>
         <div id='banner' class = 'shadow'>
             <div id = 'banner-content'>
                 <table id = bannerlayout>
                     <tr>
-                        <td id=pealkiri><a href="avaleht.html"><h1>Varjupaik: Loomade pesa</h1></a></td>
+                        <td id=pealkiri><a class="nupp" href="javascript:delay('avaleht.html')">Varjupaik: Loomade pesa</a></td>
                         <td id=nupud>
                             <table id=menu>
                                 <tr>
-                                    <td id=koerad><a id=nupp  href="koerad.html">Koerad</a></td>
-                                    <td id=kassid><a id=nupp href="kassid.html">Kassid</a></td>
-                                    <td id=info><a id=nupp href="info.html">Enne võtmist</a></td>
+                                    <td id=koerad><a class=nupp  href="javascript:delay('koerad.html')">Koerad</a></td>
+                                    <td id=kassid><a class=nupp href="javascript:delay('kassid.html')">Kassid</a></td>
+                                    <td id=info><a class=nupp href="javascript:delay('info.html')">Enne võtmist</a></td>
                                 </tr>
                             </table>
                         </td>
@@ -27,6 +41,7 @@
                 </table>   
             </div>
         </div>
+        <script  src="script.js"></script>
         <h1 class="title">Hea teada enne looma võtmist</h1>
 
         <div class="gallery">
