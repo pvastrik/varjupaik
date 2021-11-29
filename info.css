@@ -1,3 +1,9 @@
+a {
+    color: #FCD733;
+}
+a:visited {
+    color: #FCD733;
+}
 div.gallery {
     margin: auto;
     overflow: visible;
@@ -11,12 +17,7 @@ div.gallery {
 .gallery > * {
     flex: 1 1 300px;
 }
-/* .pildid {
-    position: relative;
-    width: 98%;
-    left: 50%;
-    margin-left: -48%;
-} */
+
 .title {
     color: #116530;
     margin: 15px 0px 5px 30px;
