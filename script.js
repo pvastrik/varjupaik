@@ -1,5 +1,7 @@
 // https://codepen.io/firestar300/pen/zLKZVZ
-// inspiratsioon ja animatsioon sellelt lingilt, veidike täiendatud erinevate allikate kombineerimisel
+// inspiratsioon ja animatsioon sellelt lingilt, veidi täiendatud erinevate allikate kombineerimisel
+//(https://towardsdatascience.com/quickly-extract-all-links-from-a-web-page-using-javascript-and-the-browser-console-49bb6f48127b)
+
 
 // https://stackoverflow.com/questions/6414384/how-do-i-use-css-to-position-a-fixed-variable-height-header-and-a-scrollable-con/30240682
 // headeri kõrguse muutumisel keha margini muutmine
@@ -28,7 +30,7 @@ for (var i = 0; i < Nupud.length ; i++)
   
   })
 }
-// akna suuruse muutumisel margini muutmine
+// akna suuruse muutumisel margini muutmine vastavalt headeri suurusele
 window.addEventListener('resize', function(event) {
   document.getElementById('main-content').style.marginTop = document.getElementById('banner').offsetHeight + "px";
 });
