@@ -1,7 +1,4 @@
-a {
-    color: #FCD733;
-}
-a:visited {
+a, a:visited {
     color: #FCD733;
 }
 div.gallery {
@@ -29,8 +26,7 @@ div.gallery {
     margin: 15px;
     background-image: var(--bg);
     background-size: cover;
-        /* background-position: center; */
-    padding: 10rem 0 0;
+    padding: 12rem 0 0;
     border-radius: .3rem;
     overflow: hidden;
     height: auto;
@@ -44,12 +40,12 @@ div.gallery {
 .content {
     --padding: 1.5rem;
     padding: var(--padding);
-    height:370px;
+    height:390px;
     background: linear-gradient(
         hsl(0 0% 0% / 0),
         hsl(0 0% 0% / 0.2) 20%,
         hsl(0 0% 0% / 0.8));
-    transform: translateY(320px);
+    transform: translateY(350px);
     transition: transform 500ms ease;
 
 }

@@ -13,16 +13,14 @@ html, body{
 
 }
 div#footer {
+  padding-top: 10px;
   z-index: 1;
   background-color:#116530; 
   width: 100%; 
   text-align: center;
 }
-div#footer-content {
-  width:100%;
-}
 .footertekst {
-  line-height: 60px;
+  line-height: 30px;
   width: 100%;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

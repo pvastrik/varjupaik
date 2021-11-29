@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
 div.infotekst{
     align-items: center;
-    font-family: Finger Paint;
     font-size: 24px;
     color: #116530; 
     text-align: center;
@@ -40,7 +38,9 @@ div.infotekst{
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+  a:visited {
+    color: black;
+  }
   p.nuputekst{
     text-align: center;
     text-decoration: none;
